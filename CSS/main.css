@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+html {
+  font-size: 62.5%;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  color: hsl(212deg, 100%, 93%);
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem 0 3rem 0;
+}
+
+.text-divider {
+  border: 2px solid hsl(201deg, 100%, 58%);
+  width: 90%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+  text-align: center;
+  color: hsl(212deg, 100%, 93%);
+  text-align: justify;
+}
+
+body {
+  background: #0E1928;
+  font-family: "Bangers", sans-serif;
+}
+
+.container {
+  background-color: hsl(216deg, 48%, 8%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 4rem;
+}
+.container h1 {
+  font-size: 5.5rem;
+  color: hsl(201deg, 75%, 44%);
+  padding-right: 2rem;
+}
+.container img {
+  width: 120px;
+  padding-left: 2rem;
+}
+
+.top-divider {
+  border: 4px solid #1C8BC6;
+  opacity: 20%;
+  margin: auto;
+  width: 75%;
+}
+
+.fact-card {
+  width: 85%;
+  background-color: #192A41;
+  padding: 1rem;
+  margin: auto;
+  border-top: 4px solid hsl(201deg, 100%, 58%);
+  border-radius: 0 0 15px 15px;
+}
+.fact-card p {
+  padding: 2rem 5rem;
+}
+.fact-card strong {
+  color: hsl(201deg, 75%, 44%);
+}
+
+.biography-container {
+  display: flex;
+  flex-direction: column;
+}
+.biography-container #nightwing-crouch {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  display: 1;
+}
+.biography-container p {
+  padding: 1rem 3rem;
+  display: 3;
+}
+.biography-container .block-para {
+  max-width: 100%;
+  padding: 1rem 3rem;
+  margin-bottom: 3rem;
+}
+
+.crouch-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+#nightwing-storm {
+  width: 100%;
+}
+
+.facts-container {
+  margin-bottom: 4rem;
+}
+.facts-container p {
+  padding: 0 3rem 1.5rem 3rem;
+}
+
+@media (min-width: 700px) {
+  .container h1 {
+    font-size: 8rem;
+  }
+  .container img {
+    width: 140px;
+  }
+}
+@media (min-width: 800px) {
+  .fact-card {
+    height: 320px;
+    width: 90%;
+    max-width: 1000px;
+    margin-bottom: 3rem;
+  }
+  .fact-card .facts-left {
+    float: left;
+    padding: 2rem 0 0 0;
+    width: 50%;
+  }
+  .fact-card .facts-right {
+    float: right;
+    width: 50%;
+    border-left: 6px solid rgba(28, 139, 198, 0.2);
+    padding: 2rem 0 0 0;
+    box-sizing: border-box;
+  }
+  .fact-card p {
+    font-size: 1.6rem;
+  }
+  .biography-container {
+    border-left: 4px solid #1C8BC6;
+    margin-bottom: 3rem;
+    margin-left: 3rem;
+    display: flex;
+  }
+  .biography-container .text-divider {
+    display: none;
+  }
+  .biography-container .title {
+    text-align: left;
+    margin: 0 0 2rem 3rem;
+  }
+  .biography-container .inline-para {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .biography-container #nightwing-crouch {
+    width: 325px;
+    margin-right: 5rem;
+    margin-bottom: 5rem;
+  }
+  .biography-container .block-para {
+    margin-bottom: 0;
+    padding-left: 2rem;
+  }
+  .inline-container {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .storm-container {
+    height: 250px;
+    overflow: hidden;
+  }
+  .facts-container {
+    margin-left: 3rem;
+    width: 90%;
+    border-left: 4px solid #1C8BC6;
+    margin-bottom: 5rem;
+  }
+  .facts-container .title {
+    text-align: left;
+    margin-left: 3rem;
+  }
+  .facts-container .text-divider {
+    display: none;
+  }
+}
+@media (min-width: 874px) {
+  p {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 915px) {
+  p {
+    font-size: 1.7rem;
+  }
+}
+@media (min-width: 998px) {
+  p {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1064px) {
+  p {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1036px) {
+  p {
+    font-size: 2.1rem;
+  }
+  .crouch-container #nightwing-crouch {
+    width: 450px;
+  }
+}
+@media (min-width: 1165px) {
+  p {
+    font-size: 2.2rem;
+  }
+}
+@media (min-width: 1188px) {
+  .title {
+    font-size: 4rem;
+  }
+  p {
+    font-size: 2.3rem;
+  }
+}
+@media (min-width: 1248px) {
+  .title {
+    font-size: 4.2rem;
+  }
+  p {
+    font-size: 2.4rem;
+  }
+}
+@media (min-width: 1344px) {
+  .title {
+    font-size: 4.3rem;
+  }
+  p {
+    font-size: 2.5rem;
+  }
+}/*# sourceMappingURL=main.css.map */
